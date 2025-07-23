@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Listings</title>
+    <link rel="stylesheet" href="movieListings.css" />
+</head>
+
+<body>
+    <h1>Movies!</h1>
+    <header>
+        <div class="controlsRow">
+            <div class="sortControls">
+                <label for="sortSelect">Sort by</label>
+                <select id="sortSelect">
+                    <option value="alphabetical">Title (A–Z)</option>
+                    <option value="reverseAlphabetical">Title (Z–A)</option>
+                    <option value="director">Director (A–Z)</option>
+                    <option value="directorReverse">Director (Z–A)</option>
+                    <option value="year">Year (Oldest–Newest)</option>
+                    <option value="yearReverse">Year (Newest–Oldest)</option>
+                </select>
+            </div>
+
+            <div class="genreControls">
+                <label for="genreSelect">Genre</label>
+                <select id="genreSelect">
+                    <option value="all">All</option>
+
+                </select>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="movieContainer" class="movieContainer"></div>
+    </main>
+
+    <script src="listMovies.js"></script>
+</body>
+
+</html>

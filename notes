@@ -1,0 +1,9 @@
+installed sqlite3
+installed node.js for server
+installed express sqlite3 "Express is a super popular, minimalist web framework for Node.js."
+install react
+
+to run;
+
+    1. open terminal window, type; "node server.js"
+    2. go to chrome, type "http://localhost:3000/movieListings.html" or replace "movieListings.html" with other html file
